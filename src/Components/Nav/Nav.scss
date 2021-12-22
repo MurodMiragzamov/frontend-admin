@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  li {
+    margin-left: 50px;
+    h4 {
+      color: black;
+      &:active {
+        color: dimgray;
+      }
+    }
+  }
+}
+nav .nav__list .nav__item a {
+  text-decoration: none;
+}

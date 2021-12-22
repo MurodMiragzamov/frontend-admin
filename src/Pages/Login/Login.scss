@@ -1,0 +1,39 @@
+.log__header {
+  text-align: center;
+}
+
+.log__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 40%;
+  margin-top: 50px;
+  background: dimgray;
+  padding: 30px;
+  border-radius: 3px;
+  input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  button {
+    margin-top: 20px;
+    border: 1px solid #fff;
+    color: dimgray;
+    background: #fff;
+    font-weight: bold;
+    padding: 5px 0;
+    &:hover {
+      transition: 0.3s;
+      background: dimgray;
+      color: #fff;
+    }
+  }
+}
+.log__p {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}

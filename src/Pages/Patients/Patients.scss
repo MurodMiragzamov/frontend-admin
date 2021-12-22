@@ -1,0 +1,27 @@
+.pat__header {
+  text-align: center;
+}
+
+.pat__title {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+.pat__list {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.pat__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  p {
+    font-size: 18px;
+    width: 10%;
+  }
+}

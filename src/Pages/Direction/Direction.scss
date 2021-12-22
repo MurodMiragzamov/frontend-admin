@@ -1,0 +1,27 @@
+.dir__header {
+  text-align: center;
+}
+
+.dir__title {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+.dir__list {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.dir__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  p {
+    font-size: 18px;
+    width: 25%;
+  }
+}
